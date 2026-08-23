@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Purusoth-Kumar.github.io",
+  "homepage": "https://purusoth-kumar.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
