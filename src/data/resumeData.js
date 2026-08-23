@@ -1,35 +1,55 @@
 export const resumeData = {
   // Personal Information
   personal: {
-    name: "Aanandhene M",
+    name: "Purusothkumar S",
     title: "Data Engineer",
-    location: "Erode, India",
-    email: "aanandhene26@gmail.com",
-    phone: "+91 6369675002",
-    linkedin: "linkedin.com/in/aanandhene",
-    github: "github.com/aanandhene",
-    summary: "Proactive Data Engineer with 2+ years of experience building scalable, cloud-ready data platforms across streaming, batch, warehouse, and lakehouse systems. Skilled in designing pipelines using Kafka, Apache Flink, Python, SQL, and PostgreSQL. Strong focus on real-time analytics, data governance, and automation."
+    location: "Bengaluru, India",
+    email: "purusothkumar64@gmail.com",
+    phone: "+91 9944092894",
+    linkedin: "linkedin.com/in/purusothkumar-s",
+    github: "github.com/Purusoth-Kumar",
+    summary: "Data Engineer with 3+ years of experience designing and developing scalable batch and real-time data pipelines, CDC workflows, and cloud-based lakehouse architectures. Hands-on experience with CDC ingestion (Kafka, Flink, Debezium), Apache Iceberg and Delta Lake table formats, medallion architecture, and dimensional data modeling. Skilled in Python, SQL, Airflow, Databricks, Snowflake, Trino, and Apache Doris — processing 5M+ records daily, cutting data delivery time by 60%+, and improving pipeline efficiency through optimization and fault-tolerant streaming design."
   },
 
   // Work Experience
   experience: [
     {
       id: 1,
-      company: "Span Technology Services Private Ltd.",
-      location: "Erode, India",
-      position: "Junior Data Engineer",
-      duration: "December 2023 - Present",
+      company: "Span Technology Services Pvt Ltd",
+      location: "India",
+      position: "Data Engineer",
+      duration: "October 2023 - Present",
       type: "Full-time",
-      description: "Product-based technology company delivering logistics, taxation, compliance, and enterprise data solutions for the US market",
+      description: "Designed and maintained scalable, distributed batch and real-time data pipelines and lakehouse architectures for production workloads",
       achievements: [
-        "Managed end-to-end data engineering workflows across Sprint, Staging, UAT, and Live environments",
-        "Designed and optimized streaming and batch ETL/ELT pipelines ensuring high data availability",
-        "Built and supported data warehouse models with standardized schemas across business domains",
-        "Implemented data governance, lineage, and quality checks using OpenMetadata",
-        "Optimized SQL queries and improved system reliability during peak traffic seasons",
-        "Enabled faster analytics and reporting through optimized data sources and dashboards"
+        "Designed and maintained scalable, distributed batch and real-time data pipelines (Python, SQL, Apache Kafka, Apache Flink, PostgreSQL), processing 5M+ records per day with zero data loss",
+        "Built and maintained CDC pipelines using Debezium connectors to capture changes from SQL Server, PostgreSQL, and MySQL and publish change events into Kafka",
+        "Architected a real-time payment reconciliation pipeline (Kafka + Flink stateful processing, exactly-once semantics) with automated mismatch detection and Slack alerting — cutting manual reconciliation effort by 85% and duplicate payments by 60%",
+        "Implemented Apache Iceberg-based Bronze/Silver/Gold lakehouse architecture for scalable storage, transformation, schema evolution, and analytical workloads",
+        "Designed OLAP data models using Fact and Dimension tables for analytical and reporting workloads",
+        "Cataloged and governed data assets using OpenMetadata, improving discoverability, lineage tracking, and cross-team visibility",
+        "Built and orchestrated ETL/ELT workflows using Apache Airflow, reducing end-to-end data delivery time by 60%",
+        "Reduced pipeline failures by 90% and improved recovery time by implementing checkpointing and savepointing in Flink",
+        "Resolved 20+ critical production pipeline incidents through root-cause analysis, bug fixes, and performance tuning",
+        "Optimized PySpark transformations and SQL queries, improving pipeline efficiency by 50%+ and reducing manual intervention by over 30%"
       ],
-      technologies: ["Python", "SQL Server", "PostgreSQL", "Apache Kafka", "Apache Flink", "Redis", "Airflow", "Docker", "OpenMetadata"]
+      technologies: ["Python", "SQL", "Apache Kafka", "Apache Flink", "Debezium", "Apache Iceberg", "Delta Lake", "Airflow", "PostgreSQL", "OpenMetadata", "PySpark"]
+    },
+    {
+      id: 2,
+      company: "Decision Minds Pvt Ltd",
+      location: "India",
+      position: "Software Engineering Trainee",
+      duration: "January 2023 - September 2023",
+      type: "Full-time",
+      description: "Built ETL pipelines and migrated data into Snowflake, with Power BI dashboards for stakeholder reporting",
+      achievements: [
+        "Built scalable ETL pipelines in Python supporting incremental data loading, transformation, and warehouse materialization in Snowflake",
+        "Migrated data from PostgreSQL, Oracle, and AWS S3 into Snowflake, implementing profiling, validation, transformation, and reconciliation",
+        "Automated data ingestion, transformation, and loading into Snowflake, reducing manual data-processing effort by 50%",
+        "Built interactive Power BI dashboards to visualize ETL results, validate data, and deliver business insights"
+      ],
+      technologies: ["Python", "Snowflake", "PostgreSQL", "Oracle", "AWS S3", "Power BI"]
     }
   ],
 
@@ -37,43 +57,45 @@ export const resumeData = {
   education: [
     {
       id: 1,
-      institution: "Kongu Engineering College",
+      institution: "Anna University, Chennai (Sri Balaji Chocklingam Engineering College)",
       location: "Tamil Nadu, India",
-      degree: "Bachelor of Computer Science & Engineering",
-      duration: "2020 - 2024",
-      gpa: "8.83/10"
+      degree: "B.E., Electronics and Communication Engineering",
+      duration: "Aug 2018 - Jul 2022",
+      gpa: "8.02/10.0"
     }
   ],
 
   // Skills
   skills: {
     languages: [
-      { name: "Python", level: 90 },
-      { name: "SQL", level: 90 }
+      { name: "Python", level: 85 },
+      { name: "SQL", level: 90 },
+      { name: "PySpark", level: 75 },
+      { name: "Bash/Linux Scripting", level: 85 }
     ],
     frameworks: [
-      { name: "Apache Kafka", level: 85 },
-      { name: "Apache Flink", level: 85 },
-      { name: "Apache Airflow", level: 80 }
+      { name: "Apache Kafka", level: 90 },
+      { name: "Apache Flink", level: 90 },
+      { name: "Apache Spark", level: 55 },
+      { name: "Apache Airflow", level: 85 },
+      { name: "Databricks", level: 60 }
     ],
     databases: [
+      { name: "Snowflake", level: 60 },
       { name: "PostgreSQL", level: 85 },
-      { name: "SQL Server", level: 80 },
-      { name: "MongoDB", level: 75 },
-      { name: "Redis", level: 75 },
-      { name: "Supabase", level: 70 },
-      { name: "Apache Doris", level: 80 }
+      { name: "Delta Lake", level: 50 },
+      { name: "Apache Iceberg", level: 70 },
+      { name: "Apache Doris", level: 85 },
+      { name: "Trino", level: 75 }
     ],
     tools: [
-      { name: "Docker", level: 80 },
-      { name: "GitHub", level: 85 },
+      { name: "AWS (S3, EC2, Redshift)", level: 75 },
+      { name: "Git/GitHub", level: 85 },
       { name: "Jenkins", level: 75 },
-      { name: "Streamlit", level: 80 },
-      { name: "Superset", level: 75 },
-      { name: "Microsoft Power BI", level: 75 },
-      { name: "OpenMetadata", level: 80 },
-      { name: "Postman", level: 75 },
-      { name: "n8n Automation", level: 70 }
+      { name: "Power BI", level: 70 },
+      { name: "VS Code", level: 85 },
+      { name: "Postman", level: 80 },
+      { name: "DBeaver", level: 85 }
     ]
   },
 
@@ -81,82 +103,63 @@ export const resumeData = {
   projects: [
     {
       id: 1,
-      title: "Enterprise Data Lakehouse Modernization",
-      description: "Designed and built a scalable lakehouse architecture integrating relational and NoSQL sources into Apache Doris",
+      title: "Retail Data Lakehouse",
+      description: "Built an end-to-end retail lakehouse in Databricks using PySpark and Spark SQL, processing customer, product, order, and sales data through Bronze/Silver/Gold medallion architecture",
       role: "Data Engineer",
-      duration: "2024",
-      technologies: ["SQL Server", "MySQL", "MongoDB", "PostgreSQL", "Kafka", "Flink", "MinIO", "Airflow"],
+      duration: "2026",
+      technologies: ["Databricks", "PySpark", "Delta Lake", "Spark SQL", "Unity Catalog"],
       highlights: [
-        "Improved analytical query performance by 70%",
-        "Reduced API latency by 55%",
-        "Implemented strong data governance with schema enforcement and lineage"
+        "Designed Bronze, Silver, and Gold layers using Delta Lake, implementing data cleansing, transformation, and business-ready data models.",
+        "Used Delta Lake ACID transactions, schema enforcement/evolution, and time travel for reliable, auditable data management",
+        "Implemented Unity Catalog for centralized data governance and access control",
+        "Developed analytical datasets by integrating multiple retail domain tables to support sales, customer, and product reporting.",
+        "Optimized Spark transformations with partitioning and efficient DataFrame operations"
       ]
     },
     {
       id: 2,
-      title: "Real-Time Payment Data Reconciliation",
-      description: "Built real-time reconciliation pipelines for payment gateways",
+      title: "Product Data Platform — TaxBandits & TruckLogics",
+      description: "End-to-end ownership of a real-time data platform for TaxBandits and TruckLogics — from root-causing pipeline instability to redesigning the architecture around Kafka, Flink, and Apache Doris for scalable, low-latency analytics.",
       role: "Data Engineer",
       duration: "2024",
-      technologies: ["Kafka", "Flink", "PostgreSQL", "Python", "Slack API"],
+      technologies: ["Kafka", "Flink", "MinIO Schema Registry", "Apache Doris", "MongoDB","PostgreSQL","Python","SQL"],
       highlights: [
-        "Automated reconciliation and anomaly detection workflows",
-        "Reduced manual checks by 85%",
-        "Lowered duplicate payments by 60%"
+        "Maintained legacy pipeline (SQL → Kafka → Flink → PostgreSQL) processing 2M+ records daily, resolving recurring late data arrivals, null occurrences, and dashboard slowness caused by PostgreSQL bottlenecks.",
+        "Diagnosed root causes including Kafka consumer lag, Flink misconfigurations, and unindexed tables — reducing data delays by 40%",
+        "Migrated to a modernized architecture (SQL → Kafka → MinIO Schema Registry → Flink → Apache Doris), eliminating late-arrival and null-value issues",
+        "Consolidated MongoDB and SQL sources into Apache Doris, improving dashboard performance by ~70%",
+        "Exposed REST API endpoints for low-latency dashboard consumption"
       ]
     },
     {
       id: 3,
-      title: "IRS Data Ingestion & Standardization Pipeline",
-      description: "Automated ingestion and validation pipeline for IRS datasets",
+      title: "Real-Time Payment Data Reconciliation",
+      description: "Built and owned an end-to-end real-time reconciliation system that automated payment mismatch detection and alerting, cutting manual reconciliation effort by 85% and duplicate payments by 60%.",
       role: "Data Engineer",
-      duration: "2024",
-      technologies: ["Python", "PostgreSQL", "Airflow"],
+      duration: "2025",
+      technologies: ["Kafka", "Flink", "PostgreSQL", "Python", "Slack API"],
       highlights: [
-        "Improved data readiness by 3×",
-        "Implemented validation, deduplication, and schema consistency checks"
-      ]
-    },
-    {
-      id: 4,
-      title: "Real-Time Monitoring & Observability Framework",
-      description: "Built monitoring and alerting framework for streaming jobs",
-      role: "Data Engineer",
-      duration: "2024",
-      technologies: ["Python", "Flink", "Slack"],
-      highlights: [
-        "Increased incident detection by 80%",
-        "Reduced recovery time by 50%"
-      ]
-    },
-    {
-      id: 5,
-      title: "Streamlit-Based ETL Automation Studio",
-      description: "Developed UI-driven ETL code generation platform",
-      role: "Data Engineer",
-      duration: "2024",
-      technologies: ["Streamlit", "Python", "PyFlink"],
-      highlights: [
-        "Reduced ETL development time by 60%",
-        "Standardized ingestion and transformation patterns"
+        "Independently architected a real-time reconciliation pipeline ingesting application, payment gateway, and transaction data streams using Kafka topics and Flink stateful processing — ensuring exactly-once processing semantics across all payment events.",
+        "Built a unified reconciliation layer consolidating multi-source payment data, implementing automated mismatch detection, duplicate payment flagging, and real-time Slack alerts for instant issue visibility.",
+        "Designed REST APIs on top of the reconciliation layer, enabling downstream teams to query payment status and discrepancies with low latency.",
+        "Reduced manual reconciliation effort by 85% through end-to-end automation, cutting duplicate payments by 60% and ensuring reliable, auditable payment processing at scale"
       ]
     }
   ],
 
   // Certifications
   certifications: [
-    "Microsoft Azure Fundamentals (AZ-900)",
-    "Google Data Analytics – Coursera"
+    "Microsoft Certified: Fabric Data Engineer Associate (DP-700) – Microsoft, July 2026"
   ],
 
   // Awards
   awards: [
-    "Span Super Star Award – Recognition for delivering critical projects under tight timelines and effective cross-team collaboration"
+    "Super Sparkler Award, Span Technology Services Pvt Ltd – recognized for delivering critical data engineering projects on tight timelines and cross-functional collaboration"
   ],
 
   // Social Links (Footer)
   socialLinks: {
-    linkedin: "https://linkedin.com/in/aanandhene",
-    github: "https://github.com/aanandhene"
+    linkedin: "https://linkedin.com/in/purusothkumar-s",
+    github: "https://github.com/Purusoth-Kumar"
   }
 };

@@ -48,7 +48,7 @@ const Navbar = () => {
           className={styles.logo}
           whileHover={{ scale: 1.05 }}
         >
-          Aanandhene M
+          PurusothKumar S
         </motion.a>
 
         {/* Desktop Navigation */}

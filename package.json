@@ -1,9 +1,9 @@
 {
-  "name": "aanandhene_portfolio",
+  "name": "purusothkumar_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aanandhene.github.io",
+  "homepage": "https://Purusoth-Kumar.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
