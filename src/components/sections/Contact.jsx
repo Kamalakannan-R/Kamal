@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiLinkedin, FiGithub, FiMapPin, FiSend } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiMapPin, FiPhone, FiSend } from 'react-icons/fi';
 import { resumeData } from '../../data/resumeData';
 import Section from '../ui/Section';
 import styles from './Contact.module.css';
 
 const Contact = () => {
-  const { email, linkedin, github, location } = resumeData.personal;
+  const { email, linkedin, phone, location } = resumeData.personal;
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -26,7 +26,7 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -70,6 +70,16 @@ const Contact = () => {
                 <span className={styles.label}>Email</span>
                 <span className={styles.value}>{email}</span>
               </div>
+                        </a>
+
+            <a href={`tel:${phone.replace(/\s/g, '')}`} className={styles.contactMethod}>
+              <div className={styles.icon}>
+                <FiPhone size={24} />
+              </div>
+              <div className={styles.details}>
+                <span className={styles.label}>Phone</span>
+                <span className={styles.value}>{phone}</span>
+              </div>
             </a>
 
             <a
@@ -86,22 +96,6 @@ const Contact = () => {
                 <span className={styles.value}>Connect with me</span>
               </div>
             </a>
-
-            <a
-              href={`https://${github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.contactMethod}
-            >
-              <div className={styles.icon}>
-                <FiGithub size={24} />
-              </div>
-              <div className={styles.details}>
-                <span className={styles.label}>GitHub</span>
-                <span className={styles.value}>Check my work</span>
-              </div>
-            </a>
-
             <div className={styles.contactMethod}>
               <div className={styles.icon}>
                 <FiMapPin size={24} />

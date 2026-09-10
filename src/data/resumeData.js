@@ -1,165 +1,176 @@
 export const resumeData = {
-  // Personal Information
   personal: {
-    name: "Purusothkumar S",
-    title: "Data Engineer",
-    location: "Bengaluru, India",
-    email: "purusothkumar64@gmail.com",
-    phone: "+91 9944092894",
-    linkedin: "linkedin.com/in/purusothkumar-s",
-    github: "github.com/Purusoth-Kumar",
-    summary: "Data Engineer with 3+ years of experience designing and developing scalable batch and real-time data pipelines, CDC workflows, and cloud-based lakehouse architectures. Hands-on experience with CDC ingestion (Kafka, Flink, Debezium), Apache Iceberg and Delta Lake table formats, medallion architecture, and dimensional data modeling. Skilled in Python, SQL, Airflow, Databricks, Snowflake, Trino, and Apache Doris — processing 5M+ records daily, cutting data delivery time by 60%+, and improving pipeline efficiency through optimization and fault-tolerant streaming design."
+    name: "Kamalakannan R",
+    title: "Full Stack Developer | .NET & React.js",
+    location: "Chennai, Tamil Nadu, India",
+    email: "kamalakannan.rdev@gmail.com",
+    phone: "+91 99429 71768",
+    linkedin: "linkedin.com/in/kamalakannan-r-0a48a4409",
+    github: "",
+    summary: "Full Stack Developer with 3+ years of experience building and maintaining scalable web applications. I develop backend services and RESTful APIs with C#, .NET, and ASP.NET Core, and deliver modern frontend experiences with React.js and Vue.js. My work spans microservices, database optimization, AWS serverless workflows, and application modernization."
   },
-
-  // Work Experience
   experience: [
     {
-      id: 1,
-      company: "Span Technology Services Pvt Ltd",
-      location: "India",
-      position: "Data Engineer",
-      duration: "October 2023 - Present",
-      type: "Full-time",
-      description: "Designed and maintained scalable, distributed batch and real-time data pipelines and lakehouse architectures for production workloads",
+      id: 1, company: "Span Technology Services", location: "Coimbatore, Tamil Nadu", position: "Software Engineer", duration: "June 2025 – August 2026", type: "Full-time",
+      description: "Sole developer for the TaxBandits ACA application module, owning delivery across backend APIs, business logic, frontend integration, and cloud workflows.",
       achievements: [
-        "Designed and maintained scalable, distributed batch and real-time data pipelines (Python, SQL, Apache Kafka, Apache Flink, PostgreSQL), processing 5M+ records per day with zero data loss",
-        "Built and maintained CDC pipelines using Debezium connectors to capture changes from SQL Server, PostgreSQL, and MySQL and publish change events into Kafka",
-        "Architected a real-time payment reconciliation pipeline (Kafka + Flink stateful processing, exactly-once semantics) with automated mismatch detection and Slack alerting — cutting manual reconciliation effort by 85% and duplicate payments by 60%",
-        "Implemented Apache Iceberg-based Bronze/Silver/Gold lakehouse architecture for scalable storage, transformation, schema evolution, and analytical workloads",
-        "Designed OLAP data models using Fact and Dimension tables for analytical and reporting workloads",
-        "Cataloged and governed data assets using OpenMetadata, improving discoverability, lineage tracking, and cross-team visibility",
-        "Built and orchestrated ETL/ELT workflows using Apache Airflow, reducing end-to-end data delivery time by 60%",
-        "Reduced pipeline failures by 90% and improved recovery time by implementing checkpointing and savepointing in Flink",
-        "Resolved 20+ critical production pipeline incidents through root-cause analysis, bug fixes, and performance tuning",
-        "Optimized PySpark transformations and SQL queries, improving pipeline efficiency by 50%+ and reducing manual intervention by over 30%"
+        "Independently owned the TaxBandits ACA application end to end using ASP.NET Core, C#, Vue.js, and Vuetify.",
+        "Designed and maintained RESTful APIs, CRUD operations, validation, middleware, and business logic for ACA filing and form processing.",
+        "Built a serverless bulk-file workflow with AWS Lambda, Step Functions, and S3 for secure document storage.",
+        "Implemented day- and time-based Drip Mail logic with automated 2-day, 4-day, and pre-deadline email reminders.",
+        "Optimized SQL Server queries with EF Core, LINQ, and stored procedures; applied dependency injection, repository pattern, SOLID principles, async/await, and JWT authentication.",
+        "Resolved production issues and performance bottlenecks while collaborating through Agile/Scrum sprints with Git, Azure DevOps, and Jira."
       ],
-      technologies: ["Python", "SQL", "Apache Kafka", "Apache Flink", "Debezium", "Apache Iceberg", "Delta Lake", "Airflow", "PostgreSQL", "OpenMetadata", "PySpark"]
+      technologies: ["C#", ".NET Core", "ASP.NET Core", "Vue.js", "Vuetify", "SQL Server", "EF Core", "AWS Lambda", "AWS Step Functions", "AWS S3"]
     },
     {
-      id: 2,
-      company: "Decision Minds Pvt Ltd",
-      location: "India",
-      position: "Software Engineering Trainee",
-      duration: "January 2023 - September 2023",
-      type: "Full-time",
-      description: "Built ETL pipelines and migrated data into Snowflake, with Power BI dashboards for stakeholder reporting",
+      id: 2, company: "Span Technology Services", location: "Coimbatore, Tamil Nadu", position: "Junior Software Engineer", duration: "June 2023 – May 2025", type: "Full-time",
+      description: "Developed, supported, and modernized features for the TaxBandits eFile platform across filing workflows, backend services, and frontend migration.",
       achievements: [
-        "Built scalable ETL pipelines in Python supporting incremental data loading, transformation, and warehouse materialization in Snowflake",
-        "Migrated data from PostgreSQL, Oracle, and AWS S3 into Snowflake, implementing profiling, validation, transformation, and reconciliation",
-        "Automated data ingestion, transformation, and loading into Snowflake, reducing manual data-processing effort by 50%",
-        "Built interactive Power BI dashboards to visualize ETL results, validate data, and deliver business insights"
+        "Developed and maintained eFile platform features with .NET Core, .NET Framework, C#, Worker Services, MongoDB, SQL Server, and Windows Services.",
+        "Maintained the state and postal filing module, implementing filing logic and data-processing requirements for state-level and postal workflows.",
+        "Built the TEST Simulator Tool independently under a short deadline and received a Pat on the Back Award.",
+        "Created an automated eFile demo and simulation process that replicated the end-to-end user filing workflow.",
+        "Implemented data-processing, validation, workflow-automation, and TXT, CSV, and XML file-generation services.",
+        "Contributed to migrating frontend functionality to Vue.js, feature delivery, defect resolution, testing, and continuous modernization."
       ],
-      technologies: ["Python", "Snowflake", "PostgreSQL", "Oracle", "AWS S3", "Power BI"]
+      technologies: ["C#", ".NET Core", ".NET Framework", "Worker Services", "MongoDB", "SQL Server", "Vue.js", "XML", "CSV"]
     }
   ],
-
-  // Education
-  education: [
-    {
-      id: 1,
-      institution: "Anna University, Chennai (Sri Balaji Chocklingam Engineering College)",
-      location: "Tamil Nadu, India",
-      degree: "B.E., Electronics and Communication Engineering",
-      duration: "Aug 2018 - Jul 2022",
-      gpa: "8.02/10.0"
-    }
-  ],
-
-  // Skills
+  education: [{ id: 1, institution: "Velalar College of Engineering and Technology", location: "Erode, Tamil Nadu, India", degree: "Bachelor of Electronics and Communication Engineering", duration: "June 2019 – April 2023", gpa: "8.3 CGPA" }],
+  // skills: {
+  //   languages: [{ name: "C#", level: 90 }, { name: "JavaScript", level: 85 }, { name: "TypeScript", level: 75 }, { name: "Node.js", level: 70 }],
+  //   frameworks: [{ name: ".NET Core", level: 90 }, { name: "ASP.NET Core Web API", level: 90 }, { name: "React.js", level: 80 }, { name: "Vue.js", level: 85 }, { name: "Microservices", level: 80 }],
+  //   databases: [{ name: "SQL Server", level: 90 }, { name: "Entity Framework Core", level: 85 }, { name: "MongoDB", level: 80 }, { name: "PostgreSQL", level: 70 }, { name: "Redis", level: 65 }],
+  //   tools: [{ name: "AWS (S3, Lambda, Step Functions)", level: 80 }, { name: "Git", level: 85 }, { name: "Azure DevOps", level: 80 }, { name: "Jenkins", level: 70 }, { name: "Swagger / OpenAPI", level: 80 }]
+  // },
   skills: {
-    languages: [
-      { name: "Python", level: 85 },
-      { name: "SQL", level: 90 },
-      { name: "PySpark", level: 75 },
-      { name: "Bash/Linux Scripting", level: 85 }
-    ],
-    frameworks: [
-      { name: "Apache Kafka", level: 90 },
-      { name: "Apache Flink", level: 90 },
-      { name: "Apache Spark", level: 55 },
-      { name: "Apache Airflow", level: 85 },
-      { name: "Databricks", level: 60 }
-    ],
-    databases: [
-      { name: "Snowflake", level: 60 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "Delta Lake", level: 50 },
-      { name: "Apache Iceberg", level: 70 },
-      { name: "Apache Doris", level: 85 },
-      { name: "Trino", level: 75 }
-    ],
-    tools: [
-      { name: "AWS (S3, EC2, Redshift)", level: 75 },
-      { name: "Git/GitHub", level: 85 },
-      { name: "Jenkins", level: 75 },
-      { name: "Power BI", level: 70 },
-      { name: "VS Code", level: 85 },
-      { name: "Postman", level: 80 },
-      { name: "DBeaver", level: 85 }
-    ]
-  },
+  languages: [
+    { name: "C#", level: 90 },
+    { name: "JavaScript", level: 85 },
+    { name: "TypeScript", level: 75 },
+    { name: "Node.js", level: 70 }
+  ],
 
-  // Projects
+  frameworks: [
+    { name: ".NET Core", level: 90 },
+    { name: "ASP.NET Core Web API", level: 90 },
+    { name: "Vue.js", level: 85 },
+    { name: "React.js", level: 80 },
+    { name: "Microservices", level: 80 },
+    { name: "Entity Framework Core", level: 85 }
+  ],
+
+  databases: [
+    { name: "SQL Server", level: 90 },
+    { name: "MongoDB", level: 80 },
+    { name: "PostgreSQL", level: 70 },
+    { name: "Redis", level: 65 }
+  ],
+
+  cloudDevOps: [
+    { name: "AWS", level: 80 },
+    { name: "Amazon S3", level: 80 },
+    { name: "AWS Lambda", level: 75 },
+    { name: "AWS Step Functions", level: 75 },
+    { name: "AWS EKS", level: 70 },
+    { name: "Kubernetes", level: 70 },
+    { name: "Docker", level: 75 },
+    { name: "Git", level: 85 },
+    { name: "Jenkins", level: 70 },
+    { name: "Portainer", level: 75 }
+  ],
+
+  devTools: [
+    { name: "Swagger / OpenAPI", level: 80 },
+    { name: "Postman", level: 85 },
+    { name: "NoSQLBooster", level: 75 },
+    { name: "DBeaver", level: 75 },
+    { name: "n8n", level: 70 },
+    { name: "Docker Desktop", level: 80 }
+  ],
+
+  aiTools: [
+    { name: "OpenAI Codex", level: 80 },
+    { name: "Claude", level: 80 },
+    { name: "GitHub Copilot", level: 85 }
+  ]
+},
   projects: [
-    {
-      id: 1,
-      title: "Retail Data Lakehouse",
-      description: "Built an end-to-end retail lakehouse in Databricks using PySpark and Spark SQL, processing customer, product, order, and sales data through Bronze/Silver/Gold medallion architecture",
-      role: "Data Engineer",
-      duration: "2026",
-      technologies: ["Databricks", "PySpark", "Delta Lake", "Spark SQL", "Unity Catalog"],
-      highlights: [
-        "Designed Bronze, Silver, and Gold layers using Delta Lake, implementing data cleansing, transformation, and business-ready data models.",
-        "Used Delta Lake ACID transactions, schema enforcement/evolution, and time travel for reliable, auditable data management",
-        "Implemented Unity Catalog for centralized data governance and access control",
-        "Developed analytical datasets by integrating multiple retail domain tables to support sales, customer, and product reporting.",
-        "Optimized Spark transformations with partitioning and efficient DataFrame operations"
-      ]
-    },
-    {
-      id: 2,
-      title: "Product Data Platform — TaxBandits & TruckLogics",
-      description: "End-to-end ownership of a real-time data platform for TaxBandits and TruckLogics — from root-causing pipeline instability to redesigning the architecture around Kafka, Flink, and Apache Doris for scalable, low-latency analytics.",
-      role: "Data Engineer",
-      duration: "2024",
-      technologies: ["Kafka", "Flink", "MinIO Schema Registry", "Apache Doris", "MongoDB","PostgreSQL","Python","SQL"],
-      highlights: [
-        "Maintained legacy pipeline (SQL → Kafka → Flink → PostgreSQL) processing 2M+ records daily, resolving recurring late data arrivals, null occurrences, and dashboard slowness caused by PostgreSQL bottlenecks.",
-        "Diagnosed root causes including Kafka consumer lag, Flink misconfigurations, and unindexed tables — reducing data delays by 40%",
-        "Migrated to a modernized architecture (SQL → Kafka → MinIO Schema Registry → Flink → Apache Doris), eliminating late-arrival and null-value issues",
-        "Consolidated MongoDB and SQL sources into Apache Doris, improving dashboard performance by ~70%",
-        "Exposed REST API endpoints for low-latency dashboard consumption"
-      ]
-    },
-    {
-      id: 3,
-      title: "Real-Time Payment Data Reconciliation",
-      description: "Built and owned an end-to-end real-time reconciliation system that automated payment mismatch detection and alerting, cutting manual reconciliation effort by 85% and duplicate payments by 60%.",
-      role: "Data Engineer",
-      duration: "2025",
-      technologies: ["Kafka", "Flink", "PostgreSQL", "Python", "Slack API"],
-      highlights: [
-        "Independently architected a real-time reconciliation pipeline ingesting application, payment gateway, and transaction data streams using Kafka topics and Flink stateful processing — ensuring exactly-once processing semantics across all payment events.",
-        "Built a unified reconciliation layer consolidating multi-source payment data, implementing automated mismatch detection, duplicate payment flagging, and real-time Slack alerts for instant issue visibility.",
-        "Designed REST APIs on top of the reconciliation layer, enabling downstream teams to query payment status and discrepancies with low latency.",
-        "Reduced manual reconciliation effort by 85% through end-to-end automation, cutting duplicate payments by 60% and ensuring reliable, auditable payment processing at scale"
-      ]
-    }
-  ],
 
-  // Certifications
-  certifications: [
-    "Microsoft Certified: Fabric Data Engineer Associate (DP-700) – Microsoft, July 2026"
-  ],
+{
+id: 1,
+title: "ACA Application Module",
+description:
+"An enterprise ACA filing and form-processing application developed for TaxBandits, covering end-to-end filing workflows, business rules, validations, and data processing.",
+role: "Software Engineer",
+duration: "2025 – 2026",
+technologies: [
+"ASP.NET Core",
+"C#",
+"Vue.js",
+"Vuetify",
+"SQL Server",
+"Dapper"
+],
+highlights: [
+"Developed backend APIs, business logic, CRUD operations, validations, and middleware for ACA filing workflows.",
+"Built and maintained Vue.js and Vuetify components for filing workflows, form processing, and user interactions.",
+"Optimized database operations using Dapper, LINQ, SQL Server, and stored procedures to improve application performance.",
+"Implemented JWT authentication, dependency injection, repository pattern, SOLID principles, and asynchronous programming."
+]
+},
 
-  // Awards
-  awards: [
-    "Super Sparkler Award, Span Technology Services Pvt Ltd – recognized for delivering critical data engineering projects on tight timelines and cross-functional collaboration"
-  ],
+{
+id: 2,
+title: "Span Control – Internal Operations Platform",
+description:
+"An internal administration and operations platform used by Span Enterprises teams in the US to manage customer support, queries, tickets, contacts, tracking workflows, and business reporting.",
+role: "Software Engineer",
+duration: "2025 – 2026",
+technologies: [
+"React.js",
+"C#",
+".NET Core",
+"ASP.NET Core Web API",
+"REST APIs",
+"SQL Server",
+"Dapper"
+],
+highlights: [
+"Developed React.js modules for administration, support operations, ticket management, customer queries, and contact management.",
+"Integrated React.js frontend components with ASP.NET Core REST APIs to support end-to-end business workflows.",
+"Developed tracking and reporting features for monitoring requests, assignments, statuses, operational activities, and business data.",
+"Implemented backend APIs, business logic, validations, and database operations using C#, ASP.NET Core, Dapper, and SQL Server."
+]
+},
 
-  // Social Links (Footer)
-  socialLinks: {
-    linkedin: "https://linkedin.com/in/purusothkumar-s",
-    github: "https://github.com/Purusoth-Kumar"
-  }
+{
+id: 3,
+title: "TaxBandits E-File 2.0",
+description:
+"A tax e-filing platform supporting filing workflows, automated data processing, validation, file generation, simulation, and state and postal filing operations.",
+role: "Junior Software Engineer",
+duration: "2023 – 2025",
+technologies: [
+".NET Core",
+"C#",
+"MongoDB",
+"SQL Server",
+"Vue.js",
+"XML",
+"JSON"
+],
+highlights: [
+"Developed an automated demo and simulation process that replicated the complete TaxBandits user filing workflow.",
+"Built backend services for data processing, validation, workflow automation, and filing operations.",
+"Implemented TXT, CSV, XML, and JSON file-generation workflows to support filing and simulation requirements.",
+"Contributed to state and postal filing modules while supporting frontend modernization using Vue.js."
+]
+}
+
+],
+  certifications: [],
+  awards: ["Pat on the Back Award — recognized for independently delivering the TEST Simulator Tool within a short turnaround.", "Weekly Excellence Spotlight — recognized for implementing day- and time-based Drip Mail logic in the ACA application.", "Span Superstar Award — company-wide recognition for consistent, high-impact contribution."],
+  socialLinks: { linkedin: "https://linkedin.com/in/kamalakannan-r-0a48a4409" }
 };

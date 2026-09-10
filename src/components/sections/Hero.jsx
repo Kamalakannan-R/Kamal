@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
+import { FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
 import { resumeData } from '../../data/resumeData';
 import Button from '../ui/Button';
 import styles from './Hero.module.css';
 
 const Hero = () => {
-  const { name, title, summary, linkedin, github, email } = resumeData.personal;
+  const { name, title, summary, linkedin, email } = resumeData.personal;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -37,7 +37,7 @@ const Hero = () => {
           animate="visible"
         >
           <motion.div variants={itemVariants} className={styles.greeting}>
-            <p>Hi, my name is</p>
+            <p>Hi, this is</p>
           </motion.div>
 
           <motion.h1 variants={itemVariants} className={styles.name}>
@@ -78,17 +78,6 @@ const Hero = () => {
               aria-label="LinkedIn"
             >
               <FiLinkedin size={24} />
-            </motion.a>
-            <motion.a
-              href={`https://${github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-              whileHover={{ y: -5, scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              aria-label="GitHub"
-            >
-              <FiGithub size={24} />
             </motion.a>
             <motion.a
               href={`mailto:${email}`}

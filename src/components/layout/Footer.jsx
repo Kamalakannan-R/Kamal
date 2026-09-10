@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiArrowUp } from 'react-icons/fi';
+import { FiLinkedin, FiMail, FiArrowUp } from 'react-icons/fi';
 import { resumeData } from '../../data/resumeData';
 import styles from './Footer.module.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const { name, linkedin, github, email } = resumeData.personal;
+  const { name, linkedin, email } = resumeData.personal;
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -32,17 +32,6 @@ const Footer = () => {
               aria-label="LinkedIn"
             >
               <FiLinkedin size={24} />
-            </motion.a>
-            <motion.a
-              href={`https://${github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-              whileHover={{ y: -5, scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              aria-label="GitHub"
-            >
-              <FiGithub size={24} />
             </motion.a>
             <motion.a
               href={`mailto:${email}`}

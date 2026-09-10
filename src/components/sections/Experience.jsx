@@ -39,7 +39,7 @@ const Experience = () => {
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
       >
-        {experience.map((job, index) => (
+        {experience.map((job) => (
           <motion.div
             key={job.id}
             className={styles.timelineItem}
