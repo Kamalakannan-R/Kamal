@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.vs/slnx.sqlite-journal
+/.vs/New folder.slnx/FileContentIndex/ad2db626-3a42-49a5-8078-1f1bf7f649d6.vsidx
+/.vs/slnx.sqlite
+/.vs/New folder.slnx/FileContentIndex/2d7801b7-06af-4769-887f-fa94bbfc0d8f.vsidx
+/.vs/New folder.slnx/FileContentIndex
