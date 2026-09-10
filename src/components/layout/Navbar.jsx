@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 import ThemeToggle from '../ui/ThemeToggle';
+import { resumeData } from '../../data/resumeData';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
@@ -13,6 +14,7 @@ const Navbar = () => {
     { name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -48,7 +50,7 @@ const Navbar = () => {
           className={styles.logo}
           whileHover={{ scale: 1.05 }}
         >
-          PurusothKumar S
+          {resumeData.personal.name}
         </motion.a>
 
         {/* Desktop Navigation */}
