@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/.vs/New folder.slnx/FileContentIndex
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
