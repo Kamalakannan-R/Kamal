@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/.vs/slnx.sqlite-journal
+/.vs/New folder.slnx/FileContentIndex/ad2db626-3a42-49a5-8078-1f1bf7f649d6.vsidx
+/.vs/slnx.sqlite
+/.vs/New folder.slnx/FileContentIndex/2d7801b7-06af-4769-887f-fa94bbfc0d8f.vsidx
+/.vs/New folder.slnx/FileContentIndex
