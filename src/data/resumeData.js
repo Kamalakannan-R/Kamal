@@ -7,7 +7,7 @@ export const resumeData = {
     phone: "+91 99429 71768",
     linkedin: "linkedin.com/in/kamalakannan-r-0a48a4409",
     github: "",
-    summary: "Full Stack Developer with 3+ years of experience building and maintaining scalable web applications. I develop backend services and RESTful APIs with C#, .NET, and ASP.NET Core, and deliver modern frontend experiences with React.js and Vue.js. My work spans microservices, database optimization, AWS serverless workflows, and application modernization."
+    summary: "Full Stack Developer with 3+ years of experience building and maintaining scalable web applications. I develop backend services and RESTful APIs with C#, .NET, and ASP.NET Core, and deliver modern frontend experiences with React.js and Vue.js. My expertise spans microservices, database optimization, AWS serverless workflows, and application modernization."
   },
   experience: [
     {
